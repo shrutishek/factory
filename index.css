@@ -1,0 +1,262 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;    
+    justify-content: center;
+    padding-top: 15px;
+    width: 100%;
+}
+i{
+    color: rgb(246, 207, 35);
+}
+.navbar >div> img{
+    width: 30px;
+    height: 30px;
+    padding-top: 16px;
+}
+.logo > p{
+    font-size: 18px;
+    font-weight: 900;
+    
+}
+.logo{
+    display: inline-flex;
+   margin-right: 150px;
+}
+.icons{
+    display: inline-flex;
+    gap: 40px;
+    font-size: 17px;   
+}
+.icons>a{
+   padding-top: 10px;
+    color: black;
+}
+.icons>button{
+    color: red;
+    border: 1.5px solid red;
+    padding: 12px;
+    background-color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border-width: 2px;
+   
+}
+.icons>span{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.line{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+header>div>h1{
+text-align: center;
+font-size: 40px;
+color: rgb(84, 82, 82);
+margin-bottom: 10px;
+}
+.line>div{
+  border: 2px solid rgb(246, 207, 35);
+  width: 80px;
+  height: 3px;
+  border-radius: 5px;
+  margin-left: 700px;
+  background-color: rgb(246, 207, 35);
+
+}
+.container{
+    display: flex;
+    margin-bottom: 100px;
+    gap: 20px;
+  
+    justify-content: center;
+}
+.container>div{
+border-radius: 5px;
+width: 320px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container>div>img{
+    height: 70px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.container>div>h2{
+font-size: 15px;
+padding-left: 13px;
+}
+.container>div>p{
+font-size: 13px;
+color: rgb(64, 63, 63);
+padding-left: 13px;
+
+line-height: 22px;
+margin-bottom: 15px;
+}
+.arrow{
+    display: inline-flex;
+}
+.arrow>div>p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 210px;
+    color: rgb(64, 63, 63);
+}
+.arrow>div>span{
+    color: rgb(64, 63, 63);
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.side{
+    margin-bottom: 100px;
+}
+.container-a{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.container-a>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ width: 350px;
+ height: 430px;
+ border-radius: 5px;
+
+ }
+.container-a>div>img{
+height:250px;
+width: 350px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.container-a>div>h3{
+padding-left: 15px;
+color: rgb(129, 127, 127);
+}
+
+.container-a>div>h4{
+    padding-left: 15px;
+
+ }
+
+.container-a>div>p{
+    padding-left: 15px;
+    font-size: 13px;
+    color: rgb(62, 62, 62) ;
+ }
+ .container-c>div>p>a{
+    color: rgb(85, 85, 250);
+ }
+ 
+ .container-b{
+width: 100%;
+background-color: rgb(244, 217, 97);
+display: flex;
+justify-content: center;
+margin-bottom: 0px;
+ }
+ .container-c{
+    width: 450px;
+    height: 680px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom:30px;
+ }
+
+ .container-c>div>i{
+    color: rgb(101, 99, 99);
+   margin-left: 410px;
+   padding-top: 25px;
+   font-size: 16px;
+   
+
+ }
+ 
+ .container-c>.top{
+    margin-bottom: 35px;
+  
+    
+ }
+ .container-c>div>h5{
+text-align: center;
+font-size: 22px;
+font-weight: 800;
+margin-bottom: 0px;
+margin-top: 10px;
+ }
+ 
+ .container-c>div>p{
+    text-align: center;
+ font-weight: 600;
+ }
+ .container-d{
+    padding-left: 30px;
+
+ }
+ .container-d>form>p{
+    font-weight: 600;
+ }
+ .container-d>form>p>span{
+    color: red;
+    font-size: 20px;
+ }
+ form>p{
+    margin-bottom: 10px;
+ }
+ input{
+    padding: 12px;
+
+    border-radius: 5px;
+    border: 1px solid rgb(232, 230, 230);
+    width: 370px;
+   
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+ }
+
+ .butt{
+    margin-top: 20px;
+ }
+ .container-d>div>button{
+    background-color: rgb(14, 128, 241);
+    padding: 15px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid  rgb(14, 128, 241);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+
+ }
+ .container-d>div.sing{
+text-align: center;
+margin-top: 20px;
+font-size: 12px;
+margin-right: 30px;
+ }
+ .container-d>div.sing>a{
+    text-decoration: underline;
+    color: rgb(85, 85, 250);
+   
+ }
+ 
+ .foot>p{
+   color: rgb(187, 183, 183);
+   text-transform:uppercase ;
+   text-align: center;
+   margin: 0px;
+   padding: 20px;
+ }
+ .foot{
+    background-color: black;
+ }
